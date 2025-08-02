@@ -1,0 +1,10 @@
+catalog:
+  default:
+    type: sql
+    uri: postgresql+psycopg2://USER:PASSWORD@URL/DBNAME
+    init_catalog_tables: false
+    warehouse: s3://BUCKET/WAREHOSUE_NAME/
+    s3.endpoint: https://URL:PORT
+    s3.access-key-id: ADMIN_USERNAME
+    s3.secret-access-key: ADMIN_PASSWORD
+    s3.resolve-region: True
